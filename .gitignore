@@ -1,29 +1,35 @@
+
 # Virtual environments
 venv/
-voicetotext/
-env/
 .venv/
+env/
+voicetotext/
 
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Environment variables / secrets
+.env
+.env.*
+*.key
 
 # Streamlit
-.streamlit/
+.streamlit/secrets.toml
 
 # IDE
 .vscode/
 .idea/
 
-# Audio files
-*.mp3
-*.wav
-*.m4a
-*.ogg
-*.flac
-*.webm
-*.mp4
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
 
 # Temporary files
 *.tmp
 *.temp
+
