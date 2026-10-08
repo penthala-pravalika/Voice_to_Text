@@ -1,0 +1,29 @@
+# Virtual environments
+venv/
+voicetotext/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# Audio files
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+*.webm
+*.mp4
+
+# Temporary files
+*.tmp
+*.temp
