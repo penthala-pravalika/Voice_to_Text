@@ -57,8 +57,9 @@ def to_srt(segments) -> str:
 # ---------------- Sidebar ----------------
 st.sidebar.header("Settings")
 size = st.sidebar.selectbox(
-    "Model size", ["tiny", "base", "small", "medium"], index=1,
-    help="Bigger = more accurate but slower. 'base' is a good start; 'small' for Indian languages.",
+    "Model size",
+    ["tiny", "base", "small"],
+    index=1,
 )
 lang_name = st.sidebar.selectbox("Language", list(LANGUAGES.keys()))
 task = st.sidebar.radio("Task", ["Transcribe", "Translate to English"])
